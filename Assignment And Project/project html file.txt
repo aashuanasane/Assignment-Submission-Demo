@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS for Header */
+.header{
+   height: 90px;
+   width: 100%;
+   /* background-color: rgba(0,0,0, 1); */
+   display: flex;
+   justify-content: center;
+   position:fixed;
+}
+/* CSS for Container */
+.container  
+{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    /* color:white; */
+}
+/* CSS for Logo */
+.logo
+{
+    width: 15%;
+    height: 90px;
+    /* background-color: yellow;  */
+    color: white;
+    font-size: 40px;
+
+    /* Used to style font of text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Used to display text at center of block */
+    text-align: center;
+
+    /* Used to make text font bold */
+    font-weight: bolder;
+    line-height: 90px;
+}
+/* CSS for nav */
+.nav
+{
+  width: 30%;
+  height: 90px;
+  /* background-color: green;   */
+  color: white;
+  display: flex;
+}
+/* CSS for Header_Container */
+.header_container
+{
+ justify-content: space-between;
+}
+/* CSS for nav-item */
+.nav-item
+{
+    height: 90px;
+    width: 20%;
+    /* background-color: gray; */
+    color: white;
+    font-size: 17px;
+    /* Used to style the font of text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* Used to make text bolder */
+    font-weight: bold;
+
+    /* Used to make display a text at middle of block */
+    line-height: 90px;
+    cursor: pointer;
+    transition: .4s;
+}
+/* when we want to change the colour of any items ,while click on it....we have to use hover  */
+.nav-item:hover
+{
+    background-color: white;
+    color: #1e88e5 ;
+}
+
+/* CSS for banner */
+.banner
+{
+    width: 100%;
+    height: 95vh;
+    background-color: gray;
+    /* used to add image on the background of banner block , its totally works like a background-color */
+    background-image: url("./images/banner.jpg");
+    /* used to fit our image on display according to our display size  */
+    background-size: cover;
+    background-size: cover;
+    color: white;
+}
+/* CSS for Overlay */
+.overlay
+{
+  width: 100%;
+  height: 95vh;
+  /* used for giving both transperancy and visibility to black colour */
+  background-color:rgba(0,0,0,0.5);  
+  display: flex;
+  align-items: center;
+}
+/* CSS for banner_text */
+.banner_text
+{
+  height:270px;
+  width: 50%;
+  background-color:rgba(16,128,234, 0.7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display:flex;
+  align-items: center;
+}
+/* CSS for banner_title */
+.banner_title
+{
+ font-size: 37px;
+ margin-bottom: 15px;
+}
+/* CSS for banner_dse */
+.banner_dse
+{
+    margin-bottom: 25px;
+}
+/* CSS for padd */
+.padd
+{
+padding:11qpx; 
+   /* background-color: red; */
+   width: 100%;
+}
+/* CSS for banner_btn */
+.banner_btn
+{
+   padding-left:22px;
+   padding-right:22px;
+   padding-top:11px;
+   padding-bottom:11px;
+   text-transform: uppercase;
+   background-color: transparent;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+   border: 3px solid white;
+   cursor: pointer;
+}
+/* when we want to change the colour of any items ,while click on it....we have to use hover  */
+.banner_btn:hover:hover
+{
+ background-color: white;
+ color:black;
+}
+/* CSS for services */
+.services
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* CSS for services_container */
+.services_container
+{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+/* CSS for service */
+.service
+{
+    height: 300px;
+    width: 45%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+/* CSS for service_img */
+.service_img
+{
+  width: 40%;
+  height:300px;
+  /* background-color: red; */
+  display: flex;
+  overflow: hidden;
+
+}
+/* CSS for service_details */
+.service_details
+{
+ width: 60%;
+ height: 300px;
+ /* background-color: green; */
+ display: flex;
+ align-items: center;
+}
+/* CSS for service_padd */
+.service_padd
+{
+    padding:20px;
+}
+/* CSS for service_padd */
+.service_btn
+{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:11px;
+    text-transform: uppercase;
+    background-color:rgba(16,128,234, 0.7);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+/* CSS for service_btn:hover */
+.service_btn:hover:hover
+{
+  background-color: white;
+  color:black;
+}
+/* CSS for service_title */
+.service_title
+{
+ margin-bottom: 15px;
+}
+/* CSS for service_des */
+.service_des
+{
+ margin-bottom: 27px;
+}

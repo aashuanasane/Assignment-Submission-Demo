@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creative Web Page</title>
+        <link rel="icon" href="icon.webp" >
+    </head>
+    <body bgcolor="gray">
+
+    
+        <img src="idiots.jpg" width="400px" alt="idiots" />
+        
+        <img src="motivation.webp" width="400px" alt="motivation" />
+        
+        <img src="nature.jpg" width="400px" alt="nature" />
+
+        <video controls width="400px">
+            <source src="video1.mp4" />
+        </video>
+
+        <video controls width="400px">
+            <source src="video2.mp4" />
+        </video>
+
+        <audio controls>
+            <source src="audio.m4a"/>
+        </audio>
+              
+              
+
+</html>

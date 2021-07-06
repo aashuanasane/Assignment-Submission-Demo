@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Assignment 3</title>
+        <link rel="stylesheet" href="layout.css"/>
+    </head>
+    <body>
+        
+        <!-- Gray Section -->
+
+        <div class="gray_section">
+          <div class="gray_child"></div>
+          <div class="gray_child"></div>
+          <div class="gray_child"></div>
+          <div class="gray_child"></div>
+          <div class="gray_child"></div>
+        </div>
+
+        <!-- Black section -->
+
+        <div class="black_section">
+            <div class="black_child"></div>
+            <div class="black_child"></div>
+            <div class="black_child"></div>
+            <div class="black_child"></div>
+        </div>
+    </body>
+</html>

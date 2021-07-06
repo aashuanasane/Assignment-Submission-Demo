@@ -1,0 +1,16 @@
+.inline_css
+{
+    background-color: gray;
+}
+
+.internal_css
+{
+    background-color: gray;
+}
+
+.external_css
+{
+    color: yellow;
+    font-size: 40px;
+    background-color: gray;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="assignment 2.css"/>
+        <style>
+          .Ayushi
+          {
+              color: blue;
+              font-size: 30px;
+          }
+        </style>
+    </head>
+    <body>
+    <!-- div for inline css -->
+
+     <div class="inline_css">
+        <p style="color:red;font-size:20px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam itaque blanditiis veniam vero ducimus pariatur. Vitae similique ab cumque aliquid magnam, numquam deleniti tenetur sapiente, vero debitis non eos id!</p>
+     </div>
+
+     <!-- div for internal css -->
+
+     <div class="internal_css">
+         <p class="Ayushi" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fuga corporis saepe aliquam recusandae eligendi ex iure, officia quidem quod nisi necessitatibus officiis consequatur voluptatibus cumque quibusdam doloribus voluptate distinctio?</p>
+     </div>
+
+     <!-- div for external css -->
+
+     <div class="external_css">
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem laboriosam, est nisi ut molestiae amet! Sint ullam odio neque magni, reiciendis ipsa vitae odit facere beatae similique ipsam sed!</p>
+     </div>
+
+     </body>
+</html>
+</html>

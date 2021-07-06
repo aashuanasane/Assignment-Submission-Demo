@@ -1,0 +1,31 @@
+.gray_section
+{
+    width: 100%;
+    height: 370px;
+    background-color: gray;
+}
+
+.gray_child
+{
+    width:15%;
+    height: 370px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.black_section
+{
+    width: 100%;
+    height:350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black_child
+{
+    width:20%;
+    height: 350px;
+    background-color: gray;
+}
